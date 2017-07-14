@@ -12,6 +12,8 @@
 	st = status
 	b = branch
 	hist = log --oneline --graph
+[log]
+        decorate=short
 [core]
 	excludesfile = /Users/tadatuta/.gitignore
 [difftool "sourcetree"]
