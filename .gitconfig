@@ -12,13 +12,21 @@
 	st = status
 	b = branch
 	hist = log --oneline --graph
+
 [log]
-        decorate=short
+	decorate=short
+
 [core]
 	excludesfile = /Users/tadatuta/.gitignore
+	editor = /Applications/Sublime\\ Text.app/Contents/SharedSupport/bin/subl -n -w
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+	path =
+[http]
+	postBuffer = 524288000
+[filter "media"]
+	clean = git media clean %f
+	smudge = git media smudge %f
+	required = true
+[rebase]
+	autosquash = true
