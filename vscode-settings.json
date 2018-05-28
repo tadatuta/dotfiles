@@ -1,0 +1,43 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "codeFileNav.codePath": {
+        "darwin": "/Applications/Visual\\ Studio\\ Code\\ -\\ Insiders.app"
+    },
+    "workbench.colorTheme": "Solarized Light",
+    "search.exclude": {
+        "**/node_modules/bem-*": false,
+        "**/bower_components": false
+    },
+    "typescript.npm": "/Users/tadatuta/.nvm/versions/node/v8.1.2/bin/npm",
+    "editor.find.seedSearchStringFromSelection": false,
+    "cSpell.includeRegExpList": ["CStyleComment", "string"],
+    "cSpell.userWords": [
+        "DELIM",
+        "elems",
+        "eqeqeq",
+        "inited",
+        "tadatuta"
+    ],
+    "cSpell.enabled": false,
+    "launch": {
+        "version": "0.2.0",
+        "configurations": [{
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${file}",
+            "runtimeExecutable": "/Users/tadatuta/.nvm/versions/node/v8.1.2/bin/node"
+        }]
+    },
+    "window.zoomLevel": 0,
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#b1d3f3"
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "emmet.includeLanguages": {
+        "postcss": "css"
+    },
+    "javascript.validate.enable": false
+}
